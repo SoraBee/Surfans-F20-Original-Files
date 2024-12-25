@@ -1,0 +1,19 @@
+﻿[Column Data]
+filename width=175
+[DROPPER]
+WindowPlacement=flags(1),showCmd(0),ptMin(-1,-1),ptMax(-1,-1),rcNormal(834,1339,329,648)
+always_on_top=FALSE
+checks=
+default_media_player=
+files=
+init_filename=M3U Dropper.m3udrop
+media_player_list=
+selected=
+top_item=0
+use_default_media_player=TRUE
+version=M3U Dropper v0.71
+[Find/Select]
+select matching case=FALSE
+select matching str=
+[If you are reading this...]
+You should be downloading the source code=!

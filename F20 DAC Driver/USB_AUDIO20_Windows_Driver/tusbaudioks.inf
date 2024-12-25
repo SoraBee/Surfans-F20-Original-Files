@@ -1,0 +1,297 @@
+;
+; Copyright (c) 2009-2012 Thesycon
+;
+; TUSBAudio Driver for XMOS L1 Kit KS setup information file
+;
+; This file supports:
+;     Windows XP
+;     Windows Vista      Windows Vista x64
+;     Windows 7          Windows 7 x64
+;
+
+;******************************************************************************
+; Version Section
+;------------------------------------------------------------------------------
+[Version]
+Signature="$Windows NT$"
+DriverVer=09/10/2012,1.61.0.0
+Provider=%S_Provider%
+CatalogFile=tusbaudioks.cat
+
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+
+
+;******************************************************************************
+; Manufacturer
+;------------------------------------------------------------------------------
+[Manufacturer]
+%S_Mfg%=_Models, ntamd64
+
+
+;******************************************************************************
+; Models sections
+;------------------------------------------------------------------------------
+[_Models]
+"XMOS XS1-L1 Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0001&KS
+"XMOS XS1-L1 Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0002&KS
+"XMOS XKC-SU1 Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0008&KS
+"XMOS XS1-U8 MFA"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_000A&KS
+"YBA Y1"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0005&KS
+"FiiO X3"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0001&KS
+"FiiO X3II"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0003&KS
+"FiiO X5"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0005&KS
+"FiiO X5II"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0006&KS
+"Smuma"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_2012&KS
+"YuLong Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_301E&KS
+"Tanly"=_Install, TUSBAUDIO_ENUM\VID_ABCD&PID_7923&KS
+"Spark N6"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0008&KS
+"M3"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0006&KS
+"iFi (by AMR) HD USB Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_3008&KS
+"Smart Moca"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0100&KS
+"AP100"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0005&KS
+"SHANLING MINI1"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0006&KS
+"HiFi168"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0007&KS
+"T1P"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0017&KS
+"iFi (by AMR) HD+ USB Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_3008&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F009&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F008&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F007&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F006&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F005&KS
+"SHANLING UP1"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0200&KS
+"SHANLING AUDIO"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_301F&KS
+"XUELIN HF960S"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_000D&KS
+"HIDIZ USB DAC"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0300&KS
+"Q"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_307C&KS
+"AP60"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0030&KS
+"F20"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0024&KS
+"X6"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0025&KS
+"XMOS"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0002&KS
+"TEMPO EDA3"=_Install, TUSBAUDIO_ENUM\VID_0D8C&PID_0319&KS
+"N3"=_Install, TUSBAUDIO_ENUM\VID_2D87&PID_001A&KS
+"HM001"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0032&KS
+"QP2"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_301F&KS
+
+[_Models.ntamd64]
+"XMOS XS1-L1 Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0001&KS
+"XMOS XS1-L1 Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0002&KS
+"XMOS XKC-SU1 Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0008&KS
+"XMOS XS1-U8 MFA"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_000A&KS
+"YBA Y1"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0005&KS
+"FiiO X3"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0001&KS
+"FiiO X3II"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0003&KS
+"FiiO X5"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0005&KS
+"FiiO X5II"=_Install, TUSBAUDIO_ENUM\VID_2972&PID_0006&KS
+"Smuma"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_2012&KS
+"YuLong Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_301E&KS
+"Tanly"=_Install, TUSBAUDIO_ENUM\VID_ABCD&PID_7923&KS
+"Spark N6"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0008&KS
+"M3"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0006&KS
+"iFi (by AMR) HD USB Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_3008&KS
+"Smart Moca"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0100&KS
+"AP100"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0005&KS
+"SHANLING MINI1"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0006&KS
+"HiFi168"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0007&KS
+"T1P"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0017&KS
+"iFi (by AMR) HD+ USB Audio"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_3008&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F009&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F008&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F007&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F006&KS
+"Sonata USB Audio"=_Install, TUSBAUDIO_ENUM\VID_22E1&PID_F005&KS
+"SHANLING UP1"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0200&KS
+"SHANLING AUDIO"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_301F&KS
+"XUELIN HF960S"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_000D&KS
+"HIDIZ USB DAC"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0300&KS
+"Q"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_307C&KS
+"AP60"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0030&KS
+"F20"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0024&KS
+"X6"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0025&KS
+"XMOS"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_0002&KS
+"TEMPO EDA3"=_Install, TUSBAUDIO_ENUM\VID_0D8C&PID_0319&KS
+"N3"=_Install, TUSBAUDIO_ENUM\VID_2D87&PID_001A&KS
+"HM001"=_Install, TUSBAUDIO_ENUM\VID_C502&PID_0032&KS
+"QP2"=_Install, TUSBAUDIO_ENUM\VID_20B1&PID_301F&KS
+
+;******************************************************************************
+; Install Sections x86
+;------------------------------------------------------------------------------
+[_Install.ntx86]
+Include=ks.inf, wdmaudio.inf
+Needs=KS.Registration, WDMAUDIO.Registration, mssysfx.CopyFilesAndRegister
+CopyFiles=_CopyFiles_sys_x86
+AddReg=_KSAddReg,_KSAddReg_x86
+;AddProperty=_KSAddProperty
+
+[_Install.ntx86.Services]
+AddService = %S_ServiceName%, 0x00000002, _AddService_x86, _EventLog_x86
+
+[_AddService_x86]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\tusbaudioks.sys
+
+[_EventLog_x86]
+AddReg=_EventLogAddReg_x86
+
+[_EventLogAddReg_x86]
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\tusbaudioks.sys"
+HKR,,TypesSupported,  %REG_DWORD%, 7
+
+
+;******************************************************************************
+; Install Sections x64
+;------------------------------------------------------------------------------
+[_Install.ntamd64]
+Include=ks.inf, wdmaudio.inf
+Needs=KS.Registration, WDMAUDIO.Registration, mssysfx.CopyFilesAndRegister
+CopyFiles=_CopyFiles_sys_x64
+AddReg=_KSAddReg,_KSAddReg_x64
+;AddProperty=_KSAddProperty
+
+[_Install.ntamd64.Services]
+AddService = %S_ServiceName%, 0x00000002, _AddService_x64, _EventLog_x64
+
+[_AddService_x64]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\tusbaudioks_x64.sys
+
+[_EventLog_x64]
+AddReg=_EventLogAddReg_x64
+
+[_EventLogAddReg_x64]
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\tusbaudioks_x64.sys"
+HKR,,TypesSupported,  %REG_DWORD%, 7
+
+
+;******************************************************************************
+; interface registration
+;------------------------------------------------------------------------------
+[_Install.ntx86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,_KSTopology
+[_Install.ntamd64.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,_KSTopology
+
+[_KSTopology]
+AddReg=_KSTopology_AddReg
+
+[_KSTopology_AddReg]
+HKR,,FriendlyName,,%S_TopologyDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+
+;******************************************************************************
+; make the driver available to the Multimedia system
+;------------------------------------------------------------------------------
+[_KSAddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,Drivers,SubClasses,,"wave,midi,mixer,aux"
+
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\aux\wdmaud.drv,Driver,,wdmaud.drv
+
+HKR,Drivers\wave\wdmaud.drv,Description,,%S_WdmAudDescription%
+HKR,Drivers\midi\wdmaud.drv,Description,,%S_WdmAudDescription%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%S_WdmAudDescription%
+HKR,Drivers\aux\wdmaud.drv,Description,,%S_WdmAudDescription%
+
+[_KSAddReg_x86]
+HKR,,Driver,,tusbaudioks.sys
+
+[_KSAddReg_x64]
+HKR,,Driver,,tusbaudioks_x64.sys
+
+
+;******************************************************************************
+; Add properties (Vista/W7 only)
+;------------------------------------------------------------------------------
+;[_KSAddProperty]
+; optionally, add an icon shown in Vista/W7 Audio CPL
+;DeviceBrandingIcon,,,,"%12%\tusbaudioks,-200"
+
+;Place your URL here
+;DeviceVendorWebSite,,,,"http://www.thesycon.com/" 
+
+
+
+;******************************************************************************
+; Copy file sections
+;------------------------------------------------------------------------------
+[_CopyFiles_sys_x86]
+tusbaudioks.sys,,,0x00000004
+
+[_CopyFiles_sys_x64]
+tusbaudioks_x64.sys,,,0x00000004
+
+
+;******************************************************************************
+; Destination Directories
+;------------------------------------------------------------------------------
+[DestinationDirs]
+DefaultDestDir  = 12  ; %windir%\system32\drivers 
+_CopyFiles_sys_x86 = 12
+_CopyFiles_sys_x64 = 12
+
+;******************************************************************************
+; Disk Layout
+;------------------------------------------------------------------------------
+[SourceDisksNames.x86]
+1=%S_DiskName%,,0
+[SourceDisksNames.amd64]
+1=%S_DiskName%,,0
+
+[SourceDisksFiles.x86]
+tusbaudioks.sys=1
+[SourceDisksFiles.amd64]
+tusbaudioks_x64.sys=1
+
+
+
+;******************************************************************************
+; Text Strings
+;------------------------------------------------------------------------------
+[Strings]
+;
+; Non-Localizable Strings, DO NOT MODIFY!
+;
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+
+KSCATEGORY_AUDIO="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_TOPOLOGY="{DDA54A40-1E4C-11D1-A050-405705C10000}"
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSSTRING_Filter="{9B365890-165F-11D0-A195-0020AFD156E4}"
+KSNAME_Topology="Topology"
+
+
+;
+; Localizable Strings, modify as required
+;
+; provider
+S_Provider="Thesycon"
+S_Mfg="Thesycon"
+
+
+; disk name
+S_DiskName="TUSBAudio Driver for XMOS L1 Kit driver disk"
+
+S_WdmAudDescription="Thesycon Audio Class Driver"
+S_TopologyDeviceName="Thesycon Audio Class Mixer"
+
+
+; service name, should be set to x86 binary executable name without .sys extension
+S_ServiceName="tusbaudioks"
+
+
+;;;;;;;;;;;;;;;;;;;;;; EOF ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
